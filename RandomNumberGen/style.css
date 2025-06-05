@@ -1,0 +1,23 @@
+div{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+   
+}
+#roll{
+   text-align: center;
+   font-size: 3em;
+   text-align: center;
+   padding: 5px 10px;
+   border-radius: 10px;
+   background-color: rgb(9, 65, 47);
+   color: white;
+
+
+}
+body{
+    text-align: center;
+}
+#result{
+    font-size: 3em;
+}
