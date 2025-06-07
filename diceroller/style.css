@@ -1,0 +1,82 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9f5ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Fix typo in class name used in HTML: .conatiner */
+.conatiner {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Heading */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Label */
+label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Input number styling */
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* Button styling */
+button {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Result display */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #444;
+}
+
+/* Dice images container */
+#images {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#images img {
+    width: 60px;
+    height: 60px;
+}
