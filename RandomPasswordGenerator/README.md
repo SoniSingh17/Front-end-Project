@@ -33,9 +33,10 @@ This project demonstrates my ability to:
 
 ---
 
-## 🖥️ Screenshots
+## 📸 Screenshot
 
-*(Add screenshots here if you have them)*
+![Password Generator Preview](screenshots/passwordGenerator.png)
+
 
 ---
 
@@ -44,6 +45,6 @@ This project demonstrates my ability to:
 To run locally:
 
 ```bash
-git clone https://github.com/yourusername/password-generator.git
+git clone https://github.com/SoniSingh17/password-generator.git
 cd password-generator
 open index.html
