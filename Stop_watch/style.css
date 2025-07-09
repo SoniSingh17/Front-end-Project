@@ -1,0 +1,83 @@
+/* Reset default styles */
+/* Basic Reset */
+/* Reset defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f8fafc, #e0f2fe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Heading centered */
+h1 {
+    font-size: 2.2rem;
+    color: #374151;
+    margin-bottom: 20px;
+}
+
+/* Main stopwatch container */
+#container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+}
+
+/* Timer display */
+#display {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #1f2937;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* Controls in one row */
+#controls {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* General button styling */
+#controls button {
+    flex: 1;
+    padding: 10px 0;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+/* Button hover effect */
+#controls button:hover {
+    transform: scale(1.05);
+}
+
+/* Specific button colors */
+#start {
+    background-color: #3b82f6; /* Blue */
+}
+
+#stop {
+    background-color: #ef4444; /* Red */
+}
+
+#reset {
+    background-color: #10b981; /* Green */
+}
