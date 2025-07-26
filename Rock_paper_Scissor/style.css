@@ -1,0 +1,85 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fceabb, #f8b500);
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+}
+
+/* Heading */
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Button container */
+#choices {
+    margin-bottom: 40px;
+}
+
+/* Style each button */
+#choices button {
+    font-size: 3rem;
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+/* Button hover effect */
+#choices button:hover {
+    background-color: #ffe38e;
+    transform: scale(1.1);
+}
+
+/* Output results */
+#player, #comp, #res {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #222;
+    font-weight: bold;
+}
+/* Existing styles above... */
+
+/* Result color changes */
+#res.win {
+    color: green;
+}
+
+#res.lose {
+    color: red;
+}
+
+#res.tie {
+    color: gray;
+}
+
+/* Score styling */
+#compScore, #playerScore {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    color: #222;
+    font-weight: bold;
+}
+
+/* Reset button styling */
+button[type="button"]:last-of-type {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="button"]:last-of-type:hover {
+    background-color: #fcd76d;
+    transform: scale(1.05);
+}
